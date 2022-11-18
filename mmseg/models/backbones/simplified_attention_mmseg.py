@@ -361,7 +361,7 @@ class SimplifiedTransformer(nn.Module):
 
     def forward(self, x):
         x, ref_feat = self.forward_features(x)
-        return x, ref_feat
+        return x
 
 
 class DWConv(nn.Module):
