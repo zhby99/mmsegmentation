@@ -14,6 +14,7 @@ from .mobilenet_v3 import MobileNetV3
 from .resnest import ResNeSt
 from .resnet import ResNet, ResNetV1c, ResNetV1d
 from .resnext import ResNeXt
+from .smit import SimplifiedMixTransformer
 from .stdc import STDCContextPathNet, STDCNet
 from .swin import SwinTransformer
 from .timm_backbone import TIMMBackbone
@@ -26,6 +27,5 @@ __all__ = [
     'ResNeSt', 'MobileNetV2', 'UNet', 'CGNet', 'MobileNetV3',
     'VisionTransformer', 'SwinTransformer', 'MixVisionTransformer',
     'BiSeNetV1', 'BiSeNetV2', 'ICNet', 'TIMMBackbone', 'ERFNet', 'PCPVT',
-    'SVT', 'STDCNet', 'STDCContextPathNet', 'BEiT', 'MAE'
+    'SVT', 'STDCNet', 'STDCContextPathNet', 'BEiT', 'MAE', 'SimplifiedMixTransformer'
 ]
-from .simplified_attention_mmseg import SimplifiedTransformer

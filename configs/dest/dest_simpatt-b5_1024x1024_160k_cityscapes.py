@@ -18,5 +18,5 @@ optimizer = dict(
 model = dict(
     type='EncoderDecoder',
     pretrained=None,
-    backbone=dict(embed_dims=embed_dims, num_layers=[3, 6, 8, 3]),
+    backbone=dict(embed_dims=embed_dims, num_layers=[3, 10, 16, 5]),
     decode_head=dict(in_channels=embed_dims, channels=64))
